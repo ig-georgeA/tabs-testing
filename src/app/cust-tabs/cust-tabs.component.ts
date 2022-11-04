@@ -3,11 +3,11 @@ import { NorthwindService } from '../services/northwind.service';
 import { FinancialService } from '../services/financial.service';
 
 @Component({
-  selector: 'app-master-view',
-  templateUrl: './master-view.component.html',
-  styleUrls: ['./master-view.component.scss']
+  selector: 'app-cust-tabs',
+  templateUrl: './cust-tabs.component.html',
+  styleUrls: ['./cust-tabs.component.scss']
 })
-export class MasterViewComponent implements OnInit {
+export class CustTabsComponent implements OnInit {
   public northwindEmployees: any = null;
   public financialBoxOfficeRevenue: any = null;
 

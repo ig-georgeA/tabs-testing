@@ -3,29 +3,37 @@ import { BrowserModule, HammerModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MasterViewComponent } from './master-view/master-view.component';
-import { IgxTabsModule, IgxGridModule, IgxIconModule, IgxInputGroupModule, IgxButtonModule, IgxRippleModule } from '@infragistics/igniteui-angular';
+import { CustTabsComponent } from './cust-tabs/cust-tabs.component';
+import { IgxTreeModule, IgxCardModule, IgxAvatarModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxInputGroupModule, IgxDatePickerModule, IgxTabsModule, IgxGridModule, IgxCalendarModule, IgxNavbarModule } from '@infragistics/igniteui-angular';
 import { IgxCategoryChartModule } from 'igniteui-angular-charts';
 import { FormsModule } from '@angular/forms';
+import { MulltiTabsComponent } from './mullti-tabs/mullti-tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MasterViewComponent
+    CustTabsComponent,
+    MulltiTabsComponent
   ],
   imports: [
     BrowserModule,
     HammerModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    IgxTabsModule,
-    IgxGridModule,
-    IgxIconModule,
-    IgxInputGroupModule,
+    IgxTreeModule,
+    IgxCardModule,
+    IgxAvatarModule,
     IgxButtonModule,
     IgxRippleModule,
+    IgxIconModule,
+    IgxInputGroupModule,
+    IgxDatePickerModule,
+    IgxTabsModule,
+    IgxGridModule,
     IgxCategoryChartModule,
-    FormsModule
+    FormsModule,
+    IgxCalendarModule,
+    IgxNavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

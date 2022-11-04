@@ -1,4 +1,4 @@
-# Tab testing
+# tabs-testing
 
 This project was generated with [App Builder Code Gen](https://www.infragistics.com/products/appbuilder).
 
