@@ -27,26 +27,12 @@
   min-width: 100%;
   min-height: 50px;
 }
-.tab-item-content_1 {
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-  gap: 32px;
-  overflow: auto;
-  position: absolute;
-  height: 100%;
-  min-width: 100%;
-  min-height: 50px;
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
 }
-.grid {
-  min-width: 600px;
-  min-height: 300px;
-  flex-grow: 1;
-  flex-basis: 0;
-}
-.calendar {
-  width: max-content;
+.text {
   height: max-content;
-  flex-shrink: 0;
+  min-width: min-content;
 }
