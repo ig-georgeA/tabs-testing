@@ -10,8 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { MulltiTabsComponent } from './mullti-tabs/mullti-tabs.component';
 import { DefaultTabComponent } from './default-tab/default-tab.component';
 import { IconTabComponent } from './icon-tab/icon-tab.component';
-import { LabelTabComponent } from './label-tab/label-tab.component';
-import { CustomTabComponent } from './custom-tab/custom-tab.component';
+import { AllTabsComponent } from './all-tabs/all-tabs.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { CustomTabComponent } from './custom-tab/custom-tab.component';
     MulltiTabsComponent,
     DefaultTabComponent,
     IconTabComponent,
-    LabelTabComponent,
-    CustomTabComponent
+    AllTabsComponent
   ],
   imports: [
     BrowserModule,

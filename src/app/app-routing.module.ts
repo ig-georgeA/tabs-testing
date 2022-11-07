@@ -8,8 +8,7 @@ import { CustTabsComponent } from './cust-tabs/cust-tabs.component';
 import { MulltiTabsComponent } from './mullti-tabs/mullti-tabs.component';
 import { DefaultTabComponent } from './default-tab/default-tab.component';
 import { IconTabComponent } from './icon-tab/icon-tab.component';
-import { LabelTabComponent } from './label-tab/label-tab.component';
-import { CustomTabComponent } from './custom-tab/custom-tab.component';
+import { AllTabsComponent } from './all-tabs/all-tabs.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'cust-tabs', pathMatch: 'full' },
@@ -18,8 +17,7 @@ export const routes: Routes = [
   { path: 'mullti-tabs', component: MulltiTabsComponent, data: { text: 'Mullti tabs' } },
   { path: 'default-tab', component: DefaultTabComponent, data: { text: 'Default tab' } },
   { path: 'icon-tab', component: IconTabComponent, data: { text: 'Icon tab' } },
-  { path: 'label-tab', component: LabelTabComponent, data: { text: 'Label tab' } },
-  { path: 'custom-tab', component: CustomTabComponent, data: { text: 'Custom tab' } },
+  { path: 'all-tabs', component: AllTabsComponent, data: { text: 'All tabs' } },
   { path: '**', component: PageNotFoundComponent } // must always be last
 ];
 
