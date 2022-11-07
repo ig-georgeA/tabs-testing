@@ -5,21 +5,6 @@
   align-items: stretch;
   align-content: flex-start;
 }
-.column-layout {
-  display: flex;
-  flex-direction: column;
-}
-.group {
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-  gap: 16px;
-  position: relative;
-  min-width: 50px;
-  min-height: 50px;
-  flex-grow: 1;
-  flex-basis: 0;
-}
 .tabs {
   min-width: 0;
   min-height: 0;
@@ -28,12 +13,6 @@
 }
 .tab-item {
   min-width: 100%;
-}
-.card {
-  width: 320px;
-  height: max-content;
-  min-width: 320px;
-  flex-shrink: 0;
 }
 .row-layout {
   display: flex;
@@ -60,32 +39,14 @@
   min-width: 100%;
   min-height: 50px;
 }
-.body-content {
-  min-width: 50px;
-  min-height: 50px;
-}
-.actions-content {
-  min-width: 50px;
-  min-height: 40px;
-}
 .grid {
   min-width: 600px;
   min-height: 300px;
   flex-grow: 1;
   flex-basis: 0;
 }
-.button {
-  height: max-content;
-  min-width: min-content;
-}
 .calendar {
   width: max-content;
   height: max-content;
   flex-shrink: 0;
-}
-.category-chart {
-  min-width: 400px;
-  min-height: 300px;
-  flex-grow: 1;
-  flex-basis: 0;
 }

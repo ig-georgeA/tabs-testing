@@ -6,12 +6,20 @@ import { UncaughtErrorComponent } from './error-routing/error/uncaught-error.com
 import { ErrorRoutingModule } from './error-routing/error-routing.module';
 import { CustTabsComponent } from './cust-tabs/cust-tabs.component';
 import { MulltiTabsComponent } from './mullti-tabs/mullti-tabs.component';
+import { DefaultTabComponent } from './default-tab/default-tab.component';
+import { IconTabComponent } from './icon-tab/icon-tab.component';
+import { LabelTabComponent } from './label-tab/label-tab.component';
+import { CustomTabComponent } from './custom-tab/custom-tab.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'cust-tabs', pathMatch: 'full' },
   { path: 'error', component: UncaughtErrorComponent },
   { path: 'cust-tabs', component: CustTabsComponent, data: { text: 'Cust_tabs' } },
   { path: 'mullti-tabs', component: MulltiTabsComponent, data: { text: 'Mullti tabs' } },
+  { path: 'default-tab', component: DefaultTabComponent, data: { text: 'Default tab' } },
+  { path: 'icon-tab', component: IconTabComponent, data: { text: 'Icon tab' } },
+  { path: 'label-tab', component: LabelTabComponent, data: { text: 'Label tab' } },
+  { path: 'custom-tab', component: CustomTabComponent, data: { text: 'Custom tab' } },
   { path: '**', component: PageNotFoundComponent } // must always be last
 ];
 
