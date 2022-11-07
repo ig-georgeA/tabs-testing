@@ -8,12 +8,20 @@ import { IgxTreeModule, IgxCardModule, IgxAvatarModule, IgxButtonModule, IgxRipp
 import { IgxCategoryChartModule } from 'igniteui-angular-charts';
 import { FormsModule } from '@angular/forms';
 import { MulltiTabsComponent } from './mullti-tabs/mullti-tabs.component';
+import { DefaultTabComponent } from './default-tab/default-tab.component';
+import { IconTabComponent } from './icon-tab/icon-tab.component';
+import { LabelTabComponent } from './label-tab/label-tab.component';
+import { CustomTabComponent } from './custom-tab/custom-tab.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustTabsComponent,
-    MulltiTabsComponent
+    MulltiTabsComponent,
+    DefaultTabComponent,
+    IconTabComponent,
+    LabelTabComponent,
+    CustomTabComponent
   ],
   imports: [
     BrowserModule,
